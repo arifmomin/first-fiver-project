@@ -57,7 +57,7 @@ html {
 /* ======================css veriable part start==================== */
 :root {
     --Brand-color:#430A5D;
-    --paragrapph-color:#bdbdc0;
+    --paragrapph-color:#ffffffd4;
     --poppins:"Poppins", sans-serif;
     --unica: "Unica One", sans-serif;
     --open-sans: "Open Sans", sans-serif;
@@ -74,9 +74,7 @@ html {
     max-width: 93%;
     margin: auto;
     font-size: 1.5rem;
-
 }
-
 #home_center {
     display: flex;
     justify-content: center;
@@ -85,7 +83,6 @@ html {
     flex-grow: 1;
 
 }
-
 .home_heading {
     text-align: center;
 }
@@ -563,14 +560,134 @@ html {
 }
 
 
-
-
-
-
-
-
-
 /* -------------------------------our mission part end------------------------------- */
+/* ================================footer part start================================ */
+#footer_part{
+    padding: 50px 0;
+}
+.footer_logo_part_summery {
+    max-width: 360px;
+    font: 400 14px/normal var(--poppins);
+    color: #ffffffd4;
+    margin-top: 30px;
+}
+.footer_social_icon{
+    margin-top: 20px;
+    display: flex;
+    column-gap: 12px;
+}
+.footer_social_icon a{
+    font-size: 15px;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    transition: all linear .3s;
+}
+.footer_social_icon a:hover{
+    transform: translateY(-5px);
+    background: #fff;
+    color: var(--Brand-color);
+}
+.footer_list_head{
+    margin: 58px 0 20px;
+    font:600 24px var(--poppins);
+    color: #ffff;
+}
+.footer_list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+.footer_list .footer_item , .footer_add_link{
+    font: 400 16px var(--poppins);
+    color: rgba(255, 255, 255, 0.832);
+}
+.footer_list .footer_item strong{
+    margin-right: 5px;
+    color: #fff;
+}
+.footer_add_link{
+    position: relative;
+    transition: all linear .3s;
+}
+.footer_add_link:hover{
+    color: #fff;
+}
+.footer_add_link::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: -3px;
+    right: 0%;
+    background: var(--Brand-color);
+    transition: all linear .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+.footer_add_link:hover::after{
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+}
+.footer_item .footer_page_link{
+    font: 500 18px var(--poppins);
+    color: var(--paragrapph-color);
+    position: relative;
+    transition: all linear .3s;
+}
+.footer_page_link:hover{
+    color: #fff;
+}
+.footer_page_link::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: -3px;
+    right: 0%;
+    background: var(--Brand-color);
+    transition: all linear .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+.footer_page_link:hover::after{
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+}
+/* ---------------------------------footer part end--------------------------------- */
+/* ---------------------------------home page end----------------------------------- */
+/* =================================about page start================================ */
+.about_us .banner_title {
+    font: 700 38px/normal var(--open-sans);
+    max-width: 604px;
+}
+.about_us .banner_summery {
+    max-width: 736px;
+}
+#ourMission{
+    padding: 80px 0;
+}
+.ourMission_img picture img{
+    height: 300px !important;
+}
+.ourMission_summery{
+    max-width: 800px;
+    font: 400 16px/normal var(--poppins);
+    color: var(--paragrapph-color);
+} 
+.ourMission_heading{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
 
 
 
@@ -585,16 +702,19 @@ html {
 
 
 
+/* ----------------------------------about page end--------------------------------- */
+/* =================================about page start================================ */
 
+/* ----------------------------------about page end--------------------------------- */
+/* =================================about page start================================ */
 
+/* ----------------------------------about page end--------------------------------- */
+/* =================================about page start================================ */
 
+/* ----------------------------------about page end--------------------------------- */
+/* =================================about page start================================ */
 
+/* ----------------------------------about page end--------------------------------- */
+/* =================================about page start================================ */
 
-
-
-
-
-
-
-
-/* ----------------------------home page end-------------------------- */
+/* ----------------------------------about page end--------------------------------- */
