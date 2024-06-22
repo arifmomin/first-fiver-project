@@ -30,6 +30,8 @@ window.addEventListener('scroll', function () {
     menu_bar.classList.remove('menu_fixed')
   }
 });
+
+
 $(document).ready(function(){
   $('.smooth-scroll').smoothScroll();
 });
