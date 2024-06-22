@@ -20,10 +20,6 @@ function changeBackground() {
 
 setInterval(changeBackground, interval);
 changeBackground();
-
-
-
-
 // ========================menu firxed===========================
 let menu_bar = document.querySelector('.menu_bar')
 console.log(menu_bar)
