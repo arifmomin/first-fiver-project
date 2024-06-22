@@ -21,16 +21,15 @@ function changeBackground() {
 setInterval(changeBackground, interval);
 changeBackground();
 // ========================menu firxed===========================
-// let menu_bar = document.querySelector('.menu_bar')
-// window.addEventListener('scroll', function () {
-//   let scrolling = this.scrollY
-//   if (scrolling > 100) {
-//     menu_bar.classList.add('menu_fixed')
-//   } else {
-//     menu_bar.classList.remove('menu_fixed')
-//   }
-// });
-
-document.querySelector('#yourElement').scrollIntoView({
-  behavior: 'smooth'
+let menu_bar = document.querySelector('.menu_bar')
+window.addEventListener('scroll', function () {
+  let scrolling = this.scrollY
+  if (scrolling > 100) {
+    menu_bar.classList.add('menu_fixed')
+  } else {
+    menu_bar.classList.remove('menu_fixed')
+  }
+});
+$(document).ready(function(){
+  $('.smooth-scroll').smoothScroll();
 });
