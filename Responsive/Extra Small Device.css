@@ -302,4 +302,47 @@
 }
 /* --------------------------------aboutus part end------------------------------- */
 /* --------------------------------about page end------------------------------- */
+/* ===============================about part text start============================ */
+.blog_page_banner .banner_title {
+    font-size: 28px;
+}
+.blog_page_banner .banner_summery {
+    font-size: 14px;
+}
+#blog_part{
+    padding: 60px 0;
+}
+.blog_summery {
+    font: 700 30px var(--open-sans);
+}
+.blog_part_overplay_row {
+	margin-top: 50px;
+}
+.about_part_info a {
+    font: 400 12px var(--poppins);
+}
+.blog_part_item {
+    padding: 20px 15px;
+}
+.blog_part_item_summery {
+    font: 600 18px var(--open-sans);
+    margin: 12px 0 15px;
+}
+#blog_info {
+    padding: 0px 0;
+}
+.cyber_secourity_common::after {
+display: none;
+}
+.cyber_secourity_common::before {
+    display: none;
+}
+.blog_info_text_headTwo {
+    margin-bottom: 32px;
+}
+.cyber_secourity_common {
+    text-align: center;
+}
+/* -----------------------------about part text end----------------------------- */
+
 }
