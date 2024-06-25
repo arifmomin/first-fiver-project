@@ -767,7 +767,7 @@ html {
     margin-top: 30px;
 }
 .about_us_service_list_item{
-    width: 40%;
+    width: 50%;
 }
 .about_us_service_list_text{
     font: 400 18px var(--poppins);
@@ -775,7 +775,6 @@ html {
     display: flex;
     align-items: center;
     transition: all linear .3s;
-    cursor: pointer;
 }
 .about_us_service_list_text:hover{
     transform: translateX(10px);
@@ -1115,18 +1114,97 @@ html {
     color: #fff;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ---------------------------------blog part end------------------------------------ */
+
+/* ========================contact part start==================== */
+.contact_solar_system{
+    height: 100% !important;
+}
+#contactPart {
+    padding: 120px 0 0px;
+}
+.contact_title_head{
+    font:600 26px var(--open-sans);
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact_title_head
+#contactForm {
+    height: 100%;
+    padding: 30px;
+    background: var(--Brand-color);
+    border-radius: 17px;
+}
+
+.name_box_col {
+    display: inherit;
+}
+
+.name_box_col_heading {
+    font: 400 16px/normal var(--poppins);
+    color: var(--paragrapph-color);
+    margin:15px 0 10px;
+}
+
+.contact_input {
+    font: 400 16px var(--poppins) ;
+    color: #fff;
+    width: 100%;
+    padding: 14px 14px 16px 14px;
+    background: var(--Brand-color);
+    border-radius: 6px;
+    border: none;
+    transition: all linear .3s;
+}
+.contact_input:hover{
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}
+#messase_box {
+    width: 100%;
+    height: 180px;
+    background: var(--Brand-color);
+    font: 400 16px var(--poppins);
+    color: #fff;
+    resize: none;
+    transition: all linear .3s;
+}
+#messase_box:hover{
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.contact_button button {
+    width: 100%;
+    height: 55px;
+    border-radius: 6px;
+    background: var(--Brand-color);
+    font: 400 16px var(--poppins);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border: none;
+    transition: all linear .3s;
+}
+.contact_button button:hover{
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}
+.contact_button button span {
+    font-size: 16px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.contact_button button:hover {
+    transform: translateY(-5px);
+}
+
+.contact_button button:hover span {
+    color: var(--Brand_color);
+}
+
+/* ------------------------contact part end--------------------- */
