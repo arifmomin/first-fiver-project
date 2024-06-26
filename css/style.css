@@ -649,6 +649,13 @@ html {
     backdrop-filter: blur(10px);
     overflow: hidden;
     cursor: pointer;
+    border-bottom: 4px solid transparent;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition: all linear .3s;
+}
+.mission_overplay:hover {
+    border-color: var(--Brand-color);
 }
 
 .mission_item picture img {
@@ -664,15 +671,8 @@ html {
     padding: 24px 20px;
     margin: 0% auto;
     text-align: center;
-    border-bottom: 4px solid transparent;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    transition: all linear .3s;
 }
 
-.mission_item:hover .mission_item_head {
-    border-color: var(--Brand-color);
-}
 
 .mission_item_heading {
     font: 600 19px var(--open-sans);
@@ -704,7 +704,63 @@ html {
 .mission_item_read:hover .readMore_icon {
     transform: rotate(405deg);
 }
+/* ================================teaming part start============================== */
+#teaming_part{
+    padding: 150px 0;
+}
+.teaming_part_all_time{
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+}
+.teaming_heading h2{
+    font: 700 28px var(--open-sans);
+    color: #fff;
+}
+.teaming_heading h2 span{
+    color: var(--Brand-color);
+}
+.teaming_heading h3{
+    font: 400 16px var(--poppins);
+    color: var(--paragrapph-color);
+    margin: 20px 0 25px;
+}
+.teaming_heading h4{
+    font: 600 18px var(--poppins);
+    color: #fff;
+}
+.teaming_heading h5{
+    font: 600 20px var(--poppins);
+    color: #fff;
+    margin: 15px 0 10px;
+}
+.teaming_question_overplay{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin: 20px 0 30px;
+}
+.teaming_heading .teaming_list .teaming_item{
+    font: 400 16px var(--poppins);
+    color: var(--paragrapph-color);
+    list-style: disc;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.teaming_summery{
+    font: 400 16px/normal var(--poppins);
+    color: var(--paragrapph-color);
+}
 
+
+
+
+
+
+
+
+
+/* -------------------------------teaming part end-------------------------------- */
 /* -------------------------------our mission part end------------------------------- */
 /* ================================footer part start================================ */
 #footer_part {
@@ -1498,3 +1554,5 @@ iframe {
     font: 600 16px var(--open-sans);
     color: #fff;
 }
+/* ================================teaming part start============================== */
+/* -------------------------------teaming part end-------------------------------- */
